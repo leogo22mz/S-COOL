@@ -22,6 +22,7 @@ function TopBarDropdown() {
             <div className="menuItem" onClick={() => handleMenuClick('1')}>Home</div>
             <div className="menuItem" onClick={() => handleMenuClick('2')}>Profile</div>
             <div className="menuItem" onClick={() => handleMenuClick('3')}>Courses</div>
+            <div className="menuItem" onClick={() => handleMenuClick('3')}>Log Out</div>
           </div>
         )}
       </div>

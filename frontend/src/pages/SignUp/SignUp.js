@@ -1,4 +1,5 @@
 import './SignUp.css';
+import TopBarDropdown from '../../components/TopBarDropdown';
 
 function SignUp() {
 

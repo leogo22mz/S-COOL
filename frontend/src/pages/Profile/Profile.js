@@ -1,4 +1,5 @@
 import './Profile.css';
+import TopBarDropdown from '../../components/TopBarDropdown';
 
 function Profile() {
 

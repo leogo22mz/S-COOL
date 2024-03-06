@@ -1,4 +1,5 @@
 import './CourseContent.css';
+import TopBarDropdown from '../../components/TopBarDropdown';
 
 function CourseContent() {
 
