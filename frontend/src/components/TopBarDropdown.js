@@ -1,43 +1,32 @@
 import React, { useState } from 'react';
-import { Dropdown, Menu } from 'antd';
+import './TopBarDropdown.css';
 import { MenuOutlined, UserOutlined } from '@ant-design/icons';
-import './TopBarDropdown.css'; 
 
 function TopBarDropdown() {
   const [visible, setVisible] = useState(false);
 
-  const handleMenuClick = (e) => {
-    if (e.key === '3') {
-      setVisible(false);
-    }
+  const handleMenuClick = (key) => {
+    setVisible(false);
   };
-
-  const handleVisibleChange = flag => {
-    setVisible(flag);
-  };
-
-  const menu = (
-    <Menu onClick={handleMenuClick}>
-      <Menu.Item key="1">Home</Menu.Item>
-      <Menu.Item key="2">Profile</Menu.Item>
-      <Menu.Item key="3">Courses</Menu.Item>
-    </Menu>
-  );
 
   return (
     <div className="dropdownContainer">
-      <Dropdown
-        overlay={menu}
-        onVisibleChange={handleVisibleChange}
-        visible={visible}
-        trigger={['click', 'hover']}
+      <div 
+        className="menuIcon"
+        onMouseOver={() => setVisible(true)}
+        onMouseLeave={() => setVisible(false)} 
       >
-        <MenuOutlined
-          onMouseOver={() => setVisible(true)}
-          className="iconHover"
-        />
-      </Dropdown>
-      <div className="profileIconContainer">
+        <MenuOutlined style={{ fontSize: '20px' }} />
+        {visible && (
+          <div className="customMenu">
+            <div className="menuItem" onClick={() => handleMenuClick('1')}>Home</div>
+            <div className="menuItem" onClick={() => handleMenuClick('2')}>Profile</div>
+            <div className="menuItem" onClick={() => handleMenuClick('3')}>Courses</div>
+            <div className="menuItem" onClick={() => handleMenuClick('3')}>Log Out</div>
+          </div>
+        )}
+      </div>
+      <div className="profileIcon">
         <UserOutlined style={{ fontSize: '24px' }} />
       </div>
     </div>
