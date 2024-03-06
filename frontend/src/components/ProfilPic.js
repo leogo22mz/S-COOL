@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import './Image.css';
+import './ProfilPic.css';
 
-function Image() {
+function ProfilPic() {
     const [image, setImage] = useState(null);
 
     const handleFileChange = (event) => {
@@ -22,4 +22,4 @@ function Image() {
     );
 }
 
-export default Image;
+export default ProfilPic;

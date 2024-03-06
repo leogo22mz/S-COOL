@@ -1,13 +1,15 @@
-import Form from '../../components/Form.js';
+import Form from '../../components/RegisterForm.js';
 import './RegisterPage.css'
-import Image from '../../components/Image.js';
+import ProfilPic from '../../components/ProfilPic.js';
+import RegisterForm from '../../components/RegisterForm.js';
+import LogIn from '../LogIn/LogIn.js';
 
 function RegisterPage() {
     return (
         <>
             <h5>Join the S-COOL family !</h5>
-            <Image></Image>
-            <Form></Form>
+            <ProfilPic></ProfilPic>
+            <RegisterForm></RegisterForm>
         </>
     );
   }

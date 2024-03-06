@@ -1,3 +1,9 @@
+h1{
+    text-align: center;
+    /* font-weight: bold; */
+    /* font-size: 36px; */
+    /* font-family:  sans-serif; */
+}
 
 
 .page-container {
@@ -10,10 +16,11 @@
     max-width: 600px; 
 }
 
-.container {
+.container2 {
     background-color: #D6D6D6;
     border-radius: 3%;
     padding: 20px;
+    padding-bottom: 100px;
 }
 
 .MyBtns {
@@ -29,16 +36,23 @@
     background-color: #D6D6D6;
 
 }
-#signup{
+#login{
     border-radius: 10px;
     width: 320px;
     height: 96px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family:  sans-serif;
 }
-#login{
+#signup{
     margin-top: 5px;
     border-radius: 10px;
     width: 320px;
     height: 25px;
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-weight: bold;
+
 }
 
 div.text-center{

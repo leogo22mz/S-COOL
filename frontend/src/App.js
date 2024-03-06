@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage/LandingPage.js';
@@ -7,11 +7,11 @@ import RegisterPage from './pages/RegisterPage/RegisterPage.js';
 
 
 function App() {
-  return (
+  return ( 
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<LandingPage />} />
-      <Route path='/RegisterPage' element={<RegisterPage/>}></Route>
+      <Route path='/RegisterPage' element={<RegisterPage />}></Route>
     </Routes>
   </BrowserRouter>
   );

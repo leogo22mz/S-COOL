@@ -1,0 +1,56 @@
+
+
+.page-container {
+    margin-top: 90px;
+    padding: 20px; 
+}
+
+.content-container {
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.container {
+    background-color: #D6D6D6;
+    border-radius: 3%;
+    padding: 20px;
+}
+
+.MyBtns {
+    margin-right: 0;
+    margin-top: 5px;
+    background-color: #D6D6D6;
+    border-radius: 3%;
+    padding: 10px;
+    justify-content: flex-end; 
+}
+
+.form-group, label{
+    background-color: #D6D6D6;
+
+}
+
+#signupbtn{
+    border-radius: 10px;
+    width: 320px;
+    height: 96px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family:  sans-serif;
+
+}
+#loginbtn{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 320px;
+    height: 25px;
+    font-weight: bold;
+
+}
+
+div.text-center{
+    background-color: #D6D6D6;
+}
+.form-control:focus {
+    outline: none;
+}

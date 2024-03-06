@@ -1,6 +1,6 @@
-import './Form.css';
+import './RegisterForm.css';
 
-function Form() {
+function RegisterForm() {
     return ( 
         <div className="page-container">
             <div className="content-container">
@@ -28,10 +28,10 @@ function Form() {
                 </form>
                 <div className='MyBtns '>
                     <div className="text-center">
-                        <input className='Btn' id='signup' type='button' value='SIGN UP' />
+                        <input className='Btn' id='signupbtn' type='button' value='SIGN UP' />
                     </div>
                     <div className="text-center">
-                        <input className='Btn' id='login' type='button' value='Already have an account? Log in instead' />
+                        <input className='Btn' id='loginbtn' type='button' value='Already have an account? Log in instead' />
                     </div>
                 </div>
             </div>
@@ -39,4 +39,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default RegisterForm;
