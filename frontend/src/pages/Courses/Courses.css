@@ -1,0 +1,49 @@
+.container{
+    background-color: #EEE9E3;
+}
+.logo-section h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo-section img {
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    padding-left: 60px;
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+    display: block;
+}
+
+.menu-item span {
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+
+.menu-item:hover span {
+    transform: translateX(80px);
+}
+
+.course-item{
+    font-size: xxx-large;
+}

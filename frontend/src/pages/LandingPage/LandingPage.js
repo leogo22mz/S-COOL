@@ -11,14 +11,13 @@ function LandingPage() {
   const handleDragStart = (clientY) => {
     setIsDragging(true);
     setStartY(clientY);
-    setCurrentY(clientY);
   };
 
   const handleDragMove = (clientY) => {
     setCurrentY(clientY);
     const deltaY = startY - clientY;
     if (!isDragging || deltaY < 0) return;
-    if (deltaY > window.innerHeight * 0.25) {
+    if (deltaY > window.innerHeight * 0.45) { 
       navigate('/home');
     }
   };
@@ -71,23 +70,22 @@ function LandingPage() {
     };
   }, [isDragging]);
 
-  const indicatorStyle = isDragging ? { bottom: `${startY - currentY}px` } : {};
-  const landingPageStyle = isDragging ? { backgroundColor: 'white' } : {};
+  const containerStyle = isDragging ? { bottom: `${startY - currentY}px` } : {};
 
   return (
-    <div className="landing-page" style={landingPageStyle}>
-      <h1>LANDING PAGE</h1>
-      <p>TEST FOR LANDING PAGE</p>
-      <div
-        className="scroll-up-indicator"
+    <div className="landing-page">
+      <div 
+        className="indicators-container"
         onMouseDown={handleMouseDown}
         onTouchStart={handleTouchStart}
         onMouseUp={handleMouseUp}
         onTouchEnd={handleTouchEnd}
-        style={indicatorStyle}
+        style={containerStyle}
       >
-        Scroll up to begin!
+        <div className="rectangle-indicator"></div>
+        <div className="triangle-indicator"></div>
       </div>
+      <div className="scroll-message">Scroll Up to Begin!</div>
     </div>
   );
 }
