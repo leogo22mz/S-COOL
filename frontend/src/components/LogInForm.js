@@ -1,6 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './LogInForm.css';
 
 function LogInForm(){
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/signup");
+    }
     return(
 
         
@@ -22,7 +27,7 @@ function LogInForm(){
                     <input className='Btn' id='login' type='button' value='LOG IN' />
                 </div>
                 <div className="text-center">
-                    <input className='Btn' id='signup' type='button' value='Don’t have an account? Join us here!' />
+                    <input className='Btn' onClick={handleClick} id='signup' type='button' value='Don’t have an account? Join us here!' />
                 </div>
             </div>
         </div>

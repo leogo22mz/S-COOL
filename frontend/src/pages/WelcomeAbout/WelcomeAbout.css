@@ -1,0 +1,26 @@
+p{
+    padding-top: 50px; 
+}
+.Btns{
+    text-align: center;
+    padding-top: 50px; 
+
+}
+#btn1{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #E9D8C8;
+    height: 52px;
+    width: 267px;
+    font-size: larger;
+    font-weight: bold;
+}
+#btn2{
+    border-radius: 20px;
+    background-color: #E9D8C8;
+    height: 52px;
+    width: 267px;
+    font-size: larger;
+    font-weight: bold;
+
+}

@@ -1,6 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import './RegisterForm.css';
 
 function RegisterForm() {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/about");
+    }
+
     return ( 
         <div className="page-container">
             <div className="content-container">
@@ -31,7 +37,7 @@ function RegisterForm() {
                         <input className='Btn' id='signupbtn' type='button' value='SIGN UP' />
                     </div>
                     <div className="text-center">
-                        <input className='Btn' id='loginbtn' type='button' value='Already have an account? Log in instead' />
+                        <input className='Btn' onClick={handleClick} id='loginbtn' type='button' value='Already have an account? Log in instead' />
                     </div>
                 </div>
             </div>

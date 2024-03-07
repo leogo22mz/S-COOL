@@ -12,7 +12,6 @@ import Profile from './pages/Profile/Profile.js';
 import SignUp from './pages/SignUp/SignUp.js';
 import WelcomeAbout from './pages/WelcomeAbout/WelcomeAbout.js';
 import { useEffect, useState } from 'react';
-import RegisterPage from './pages/RegisterPage/RegisterPage.js';
 
 
 function App() {
