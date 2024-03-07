@@ -1,12 +1,27 @@
 import React, { useState } from 'react';
 import './TopBarDropdown.css';
 import { MenuOutlined, UserOutlined } from '@ant-design/icons';
+import { useNavigate } from 'react-router-dom';
 
 function TopBarDropdown() {
   const [visible, setVisible] = useState(false);
+  const navigate = useNavigate(); 
 
   const handleMenuClick = (key) => {
     setVisible(false);
+    switch (key) {
+      case '1':
+        navigate('/home');
+        break;
+      case '2':
+        navigate('/profile');
+        break;
+      case '3':
+        navigate('/courses');
+        break;
+      default:
+        break;
+    }
   };
 
   return (
