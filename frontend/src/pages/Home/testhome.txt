@@ -1,0 +1,16 @@
+.horizontal-line {
+    position: relative;
+    margin-top: 10px; 
+}
+
+.horizontal-line::before {
+    content: '';
+    position: absolute;
+    left: -0.55%; 
+    top: 75%;
+    width: 2px; 
+    height: calc(100% - -200px); 
+    background-color: black; 
+    transform: translateY(-50%) rotate(-90deg); 
+}
+
