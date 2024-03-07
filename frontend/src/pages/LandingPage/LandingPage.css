@@ -2,30 +2,38 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-    background-color: #FFC0CB; /* Color inicial del fondo */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-}
+    background-color: #E9D8C8;
+  }
 
-.scroll-up-indicator {
+  .indicators-container {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100vw;
-    height: 100px;
-    background: #FFC0CB;
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     user-select: none;
     -webkit-user-drag: none;
-}
+    padding-bottom: 200px;
+  }
+  
+  .triangle-indicator {
+    width: 100vw;
+    height: 100px;
+    background: #EEE9E3;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+  
+  .rectangle-indicator {
+    width: 100vw;
+    height: 100vh;
+    background: #EEE9E3;
+    display: flex;
+    text-align: center;
+  }
+
+  .scroll-message {
+    text-align: center;
+    padding-top: 100%;
+  }
 
 
-
-/* .scroll-up-indicator:hover {
-    transform: translateY(-10px);
-    transition: transform 0.3s ease-in-out;
-} */
