@@ -5,12 +5,11 @@ import TopBarDropdown from '../../components/TopBarDropdown';
 import logo from '../../assets/img/logo.svg';
 
 function ContactUsPage() {
-    // Function to handle form submission
+
     const onFinish = (values) => {
         console.log('Received values of form:', values);
     };
 
-    // Function to handle form submission failure
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
