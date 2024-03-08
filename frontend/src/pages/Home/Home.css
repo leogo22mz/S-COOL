@@ -1,3 +1,62 @@
+.home-container{
+    background-color: #EEE9E3;
+    height: 100vh;
+}
+.logo-section h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo-section img {
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.home-navigation-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.home-menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    padding-left: 60px;
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+    display: block;
+}
+
+.home-menu-item span {
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+
+.home-menu-item:hover span {
+    transform: translateX(80px);
+}
+
+.home-item{
+    font-size: xxx-large;
+}
+
+
+
+
+
+
+
+
+
 
 .topics{
     margin-top: 100px;
@@ -7,7 +66,6 @@
     font-family: 'Montserrat';
     margin-left: 100px;
 }
-
 
 #hometitle{
     margin-top: 15px;

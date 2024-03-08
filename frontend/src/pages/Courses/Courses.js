@@ -5,7 +5,7 @@ import logo from '../../assets/img/logo.svg';
 
 function Courses() {
     return (
-        <div className="container">
+        <div className="courses-container">
             <TopBarDropdown />
             <div className="logo-section">
                 <img src={logo} alt="Logo" />
@@ -17,7 +17,6 @@ function Courses() {
                 <Link to="/profile" className="menu-item"><span className="course-item">Finance</span></Link>
                 <Link to="/profile" className="menu-item"><span className="course-item">Graphic Design</span></Link>
             </nav>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
     );
 }
