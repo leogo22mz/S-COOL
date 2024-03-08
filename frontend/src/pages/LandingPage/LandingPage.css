@@ -19,14 +19,14 @@
   .triangle-indicator {
     width: 100vw;
     height: 100px;
-    background: #EEE9E3;
+    background: #FCC21B;
     clip-path: polygon(50% 100%, 0 0, 100% 0);
   }
   
   .rectangle-indicator {
     width: 100vw;
     height: 100vh;
-    background: #EEE9E3;
+    background: #FCC21B;
     display: flex;
     text-align: center;
   }
