@@ -1,5 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import './RegisterForm.css';
+import { Form, Input, Button } from 'antd';
+
+
 
 function RegisterForm() {
     const navigate = useNavigate();
@@ -38,6 +41,7 @@ function RegisterForm() {
                     </div>
                     <div className="text-center">
                         <input className='BtnRegister' onClick={handleClick} id='loginbtn' type='button' value='Already have an account? Log in instead' />
+                        
                     </div>
                 </div>
             </div>

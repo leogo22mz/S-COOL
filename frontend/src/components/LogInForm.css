@@ -1,6 +1,7 @@
 .page-containerLogin {
     margin-top: 90px;
     padding: 20px; 
+    
 }
 
 .content-containerLogin {
@@ -9,7 +10,7 @@
 }
 
 .myform {
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
     border-radius: 3%;
     padding: 20px;
     padding-bottom: 100px;
@@ -18,35 +19,84 @@
 .MyBtnsLogin {
     margin-right: 0;
     margin-top: 5px;
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
     border-radius: 3%;
     padding: 10px;
-    justify-content: flex-end; 
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
-.compform, label{
-    background-color: #D6D6D6;
+#champtxt1{
+    border-radius: 13px;
+    height: 37px;
+    border: none;
+    display: flex;
+}
+#champtxt2{
+    border-radius: 13px;
+    height: 37px;
+    border: none;
+    display: flex;
+}
+
+.labelstuff{
+    background-color: #EEE9E3;
 
 }
 #login{
     border-radius: 10px;
-    width: 320px;
+    width: 270px;
     height: 96px;
     font-weight: bold;
     font-size: 36px;
     font-family:  sans-serif;
+    background-color: #75F5A8;
+
 }
 #signup{
     margin-top: 5px;
     border-radius: 10px;
-    width: 320px;
+    width: 270px;
     height: 25px;
-    font-size: 15px;
+    font-size: 13px; 
     font-family:  sans-serif;
     font-weight: bold;
+    background-color: #F9F9F9;
+
 
 }
 
 div.text-center{
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
+}
+
+
+.BtnLogin {
+    border-radius: 10px;
+    width: 100%; 
+    height: 50px; 
+    font-weight: bold;
+    font-size: 18px; 
+    font-family: sans-serif;
+    margin-top: 5px; 
+}
+
+@media (min-width: 2561px) { 
+    .MyBtnsLogin {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .BtnLogin {
+        width: calc(50% - 5px); 
+    }
+}
+
+@media (max-width: 767px) { 
+    .BtnLogin {
+        width: 60%; 
+        max-width: 320px; 
+    }
 }

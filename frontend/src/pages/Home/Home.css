@@ -1,4 +1,6 @@
-
+.homepage{
+    background-color: #EEE9E3;
+}
 .topics{
     margin-top: 100px;
 }
@@ -14,4 +16,20 @@
     text-align: center;
 }
 
+
+.horizontal-line {
+    position: relative;
+    margin-top: 10px; 
+}
+
+.horizontal-line::before {
+    content: '';
+    position: absolute;
+    left: -4.1%; 
+    top: 75%;
+    width: 2px; 
+    height: calc(100% - -200px); 
+    background-color: black; 
+    transform: translateY(-50%) rotate(-90deg); 
+}
 

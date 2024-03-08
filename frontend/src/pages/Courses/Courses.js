@@ -5,7 +5,7 @@ import logo from '../../assets/img/logo.svg';
 
 function Courses() {
     return (
-        <div className="container">
+        <div className="coursescontainer">
             <TopBarDropdown />
             <div className="logo-section">
                 <img src={logo} alt="Logo" />

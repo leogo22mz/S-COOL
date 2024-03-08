@@ -1,12 +1,16 @@
 import './LogIn.css';
 import LogInForm from '../../components/LogInForm';
+import logo from '../../assets/img/logo.svg';
+
 
 function LogIn() {
 
     return (
 
         <div className='loginpage'>
-            <h1 id='logintitle'>S-COOL</h1>
+            <div className="logo-section">
+                <img src={logo} alt="Logo" />
+            </div>
             <LogInForm></LogInForm>
         </div>
     );

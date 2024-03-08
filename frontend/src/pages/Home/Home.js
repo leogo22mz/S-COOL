@@ -2,7 +2,7 @@ import './Home.css';
 import TopBarDropdown from '../../components/TopBarDropdown';
 import { useNavigate } from 'react-router-dom';
 import 'typeface-montserrat';
-
+import logo from '../../assets/img/logo.svg';
 
 
 
@@ -28,23 +28,28 @@ function Home() {
         <>
           
                 <TopBarDropdown/>
-                <h1 id='hometitle'>S-COOL LOGO here</h1>
-                <div className='topics'>
-                    <div>
+                <div className='homepage'>
+                    <div className="logo-section">
+                        <img src={logo} alt="Logo" />
+                    </div>
+                    <div className='topics'>
                         <div>
-                            <h3 onClick={handleClickAbout} className='topic'>About</h3>
-                        </div>
-                        <div>
-                            <h3  onClick={handleClickCourses}  className='topic'>Courses</h3>
-                        </div>
-                        <div>
-                            <h3  onClick={handleClickQuizz}  className='topic'>Quizzes</h3>
-                        </div>
-                        <div>
-                            <h3  onClick={handleClickProfile}  className='topic'>Profile</h3>
+                            <div className='horizontal-line'>
+                                <h3 onClick={handleClickAbout} className='topic'>About</h3>
+                            </div>
+                            <div>
+                                <h3  onClick={handleClickCourses}  className='topic'>Courses</h3>
+                            </div>
+                            <div>
+                                <h3  onClick={handleClickQuizz}  className='topic'>Quizzes</h3>
+                            </div>
+                            <div>
+                                <h3  onClick={handleClickProfile}  className='topic'>Profile</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
            
         </>
         
