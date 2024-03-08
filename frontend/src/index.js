@@ -1,11 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; 
+import ReactDOM from 'react-dom/client'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Form from './components/RegisterForm';
-import LandingPage from './pages/LandingPage/LandingPage';
-import TopBarDropdown from './components/TopBarDropdown';
-import LogIn from './pages/LogIn/LogIn';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

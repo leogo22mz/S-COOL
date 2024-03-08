@@ -1,20 +1,17 @@
-*{
-    background-color: #EEE9E3;
-}
+
 .topics{
     margin-top: 100px;
 }
-.spacer {
+.topic{
     margin-bottom: 50px;
-}
-
-
-h1{
-    padding-bottom: 30px;
-}
-
-h3 {
     font-family: 'Montserrat';
     margin-left: 100px;
 }
+
+
+#hometitle{
+    margin-top: 15px;
+    text-align: center;
+}
+
 

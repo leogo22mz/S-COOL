@@ -9,25 +9,25 @@ function LogInForm(){
     return(
 
         
-        <div className="page-container">
-        <div className="content-container">
-            <form className="container2">
-                <div className='form-group'>
+        <div className="page-containerLogin">
+        <div className="content-containerLogin">
+            <form className="container myform">
+                <div className='form-group compform'>
                     <label >Username/email:</label>
-                    <input type='text' className="form-control" />
+                    <input type='text' className="form-control champtxt" />
                 </div>
-                <div  className='form-group'>
+                <div  className='form-group compform'>
                     <label>Password:</label>
-                    <input type='text' className="form-control" />
+                    <input type='text' className="form-control champtxt" />
                 </div>
                 
             </form>
-            <div className='MyBtns '>
+            <div className='MyBtnsLogin'>
                 <div className="text-center">
-                    <input className='Btn' id='login' type='button' value='LOG IN' />
+                    <input className='BtnLogin' id='login' type='button' value='LOG IN' />
                 </div>
                 <div className="text-center">
-                    <input className='Btn' onClick={handleClick} id='signup' type='button' value='Don’t have an account? Join us here!' />
+                    <input className='BtnLogin' onClick={handleClick} id='signup' type='button' value='Don’t have an account? Join us here!' />
                 </div>
             </div>
         </div>

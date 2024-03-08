@@ -8,36 +8,36 @@ function RegisterForm() {
     }
 
     return ( 
-        <div className="page-container">
-            <div className="content-container">
-                <form className="container">
-                    <div className='form-group'>
+        <div className="page-containerRegister">
+            <div className="content-containerRegister">
+                <form className="containerRegister">
+                    <div className='form-group champform'>
                         <label >Username:</label>
-                        <input type='text' className="form-control" />
+                        <input type='text' className="form-control champtext" />
                     </div>
-                    <div  className='form-group'>
+                    <div  className='form-group champform'>
                         <label>e-mail:</label>
-                        <input type='text' className="form-control" />
+                        <input type='text' className="form-control champtext" />
                     </div>
-                    <div  className='form-group'>
+                    <div  className='form-group champform'>
                         <label>Repeat e-mail:</label>
-                        <input type='text' className="form-control" />
+                        <input type='text' className="form-control champtext" />
                     </div>
-                    <div  className='form-group'>
+                    <div  className='form-group champform'>
                         <label>Password:</label>
-                        <input type='text' className="form-control" />
+                        <input type='text' className="form-control champtext" />
                     </div>
-                    <div  className='form-group'>
+                    <div  className='form-group champform'>
                         <label>Repeat Password:</label>
-                        <input type='text' className="form-control" />
+                        <input type='text' className="form-control champtext" />
                     </div>
                 </form>
-                <div className='MyBtns '>
+                <div className='MyBtnsRegister'>
                     <div className="text-center">
-                        <input className='Btn' id='signupbtn' type='button' value='SIGN UP' />
+                        <input className='BtnRegister' id='signupbtn' type='button' value='SIGN UP' />
                     </div>
                     <div className="text-center">
-                        <input className='Btn' onClick={handleClick} id='loginbtn' type='button' value='Already have an account? Log in instead' />
+                        <input className='BtnRegister' onClick={handleClick} id='loginbtn' type='button' value='Already have an account? Log in instead' />
                     </div>
                 </div>
             </div>

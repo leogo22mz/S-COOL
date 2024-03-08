@@ -28,20 +28,20 @@ function Home() {
         <>
           
                 <TopBarDropdown/>
-                <h1>S-COOL LOGO here</h1>
+                <h1 id='hometitle'>S-COOL LOGO here</h1>
                 <div className='topics'>
                     <div>
                         <div>
-                            <h3 onClick={handleClickAbout} className='spacer'>About</h3>
+                            <h3 onClick={handleClickAbout} className='topic'>About</h3>
                         </div>
                         <div>
-                            <h3  onClick={handleClickCourses}  className='spacer'>Courses</h3>
+                            <h3  onClick={handleClickCourses}  className='topic'>Courses</h3>
                         </div>
                         <div>
-                            <h3  onClick={handleClickQuizz}  className='spacer'>Quizzes</h3>
+                            <h3  onClick={handleClickQuizz}  className='topic'>Quizzes</h3>
                         </div>
                         <div>
-                            <h3  onClick={handleClickProfile}  className='spacer'>Profile</h3>
+                            <h3  onClick={handleClickProfile}  className='topic'>Profile</h3>
                         </div>
                     </div>
                 </div>

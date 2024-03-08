@@ -16,9 +16,9 @@ function WelcomeAbout() {
 
         <div>
             <TopBarDropdown />
-            <h1>S-COOL LOGO here</h1>
+            <h1 id='welcomeabouttitle'>S-COOL LOGO here</h1>
             <div>
-                <p>
+                <p className='welcomep'>
                 A text about the online school. 
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit.
