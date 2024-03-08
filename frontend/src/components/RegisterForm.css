@@ -1,0 +1,57 @@
+
+.page-containerRegister {
+    margin-top: 90px;
+    padding: 20px; 
+}
+
+.content-containerRegister {
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.containerRegister {
+    background-color: #D6D6D6;
+    border-radius: 3%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.MyBtnsRegister {
+    margin-right: 0;
+    margin-top: 5px;
+    background-color: #D6D6D6;
+    border-radius: 3%;
+    padding: 10px;
+    justify-content: flex-end; 
+}
+
+.champform, label{
+    background-color: #D6D6D6;
+
+}
+
+#signupbtn{
+    border-radius: 10px;
+    width: 320px;
+    height: 96px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family:  sans-serif;
+
+}
+#loginbtn{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 320px;
+    height: 25px;
+    font-weight: bold;
+
+}
+
+
+div.text-centerRegister{
+    background-color: #D6D6D6;
+}
+.champtext:focus {
+    outline: none;
+}

@@ -1,14 +1,13 @@
 import './LogIn.css';
-import TopBarDropdown from '../../components/TopBarDropdown';
+import LogInForm from '../../components/LogInForm';
 
 function LogIn() {
 
     return (
 
-        <div>
-            <TopBarDropdown />
-            <h1>LogIn</h1>
-            <p>TEST FOR LogIn</p>
+        <div className='loginpage'>
+            <h1 id='logintitle'>S-COOL</h1>
+            <LogInForm></LogInForm>
         </div>
     );
 }

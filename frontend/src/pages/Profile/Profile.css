@@ -1,0 +1,26 @@
+
+.profile-icon {
+    border-radius: 50%;
+    width: 150px; /* Taille souhaitée */
+    height: 150px; /* Taille souhaitée */
+    background-color:lightgray; /* Couleur de fond optionnelle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.profile-icon i {
+    font-size: 50px; /* Taille de l'icône */
+    color:white; /* Couleur de l'icône */
+}
+
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; 
+}

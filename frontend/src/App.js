@@ -1,4 +1,5 @@
 import './App.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage/LandingPage.js';
 import AskPage from './pages/AskPage/AskPage.js';
@@ -10,11 +11,11 @@ import LogIn from './pages/LogIn/LogIn.js';
 import Profile from './pages/Profile/Profile.js';
 import SignUp from './pages/SignUp/SignUp.js';
 import WelcomeAbout from './pages/WelcomeAbout/WelcomeAbout.js';
-import { useEffect, useState } from 'react';
+import WelcomeAbout2 from './pages/WelcomeAbout2/WelcomeAbout2.js';
 
 
 function App() {
-  return (
+  return ( 
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<LandingPage />} />
@@ -28,6 +29,7 @@ function App() {
       <Route path='/profile' element={<Profile />} />
       <Route path='/signup' element={<SignUp />} />
       <Route path='/about' element={<WelcomeAbout />} />
+      <Route path='/about2' element={<WelcomeAbout2 />} />
     </Routes>
   </BrowserRouter>
   );

@@ -1,14 +1,17 @@
 import './SignUp.css';
-import TopBarDropdown from '../../components/TopBarDropdown';
+import ProfilPic from '../../components/ProfilPic.js';
+import RegisterForm from '../../components/RegisterForm.js';
 
 function SignUp() {
 
+  
     return (
 
-        <div>
-            <TopBarDropdown />
-            <h1>SignUp</h1>
-            <p>TEST FOR SignUp</p>
+        <div className='signuppage'>
+            <h5 id='signuptitle'>Join the S-COOL family !</h5>
+
+            <ProfilPic/>
+            <RegisterForm/>
         </div>
     );
 }

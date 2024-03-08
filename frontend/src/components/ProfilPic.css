@@ -1,0 +1,31 @@
+.image-label {
+    position: relative;
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.circle svg {
+    background-color: white; 
+}
+
+.image-upload {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
