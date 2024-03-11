@@ -1,12 +1,16 @@
 import './WelcomeAbout2.css';
 import TopBarDropdown from '../../components/TopBarDropdown';
+import logo from '../../assets/img/logo.svg';
+
 
 function WelcomeAbout2() {
     return (
 
-        <div>
+        <div className='welcomeaboutpage2'>
             <TopBarDropdown />
-            <h1 id='welcomeabout2title'>S-COOL LOGO here</h1>
+            <div className="logo-section">
+                <img src={logo} alt="Logo" />
+            </div>
             <div>
                 <p className='welcomep2'>
                 A text about the online school. 

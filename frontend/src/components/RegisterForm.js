@@ -6,7 +6,7 @@ import './RegisterForm.css';
 function RegisterForm() {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate("/about");
+        navigate("/login");
     }
 
     return ( 

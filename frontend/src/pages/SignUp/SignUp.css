@@ -9,21 +9,3 @@
     text-align: center;
 }
 
-/* 
-.horizontal-lineTitle {
-    position: relative;
-    margin-top: 10px; 
-}
-
-.horizontal-lineTitle::before {
-    content: '';
-    position: absolute;
-    
-    margin-left: -8px;
-    left: 0%; 
-    top: 74.86%;
-    width: 2px; 
-    height: calc(100% - -200px); 
-    background-color: black; 
-    transform: translateY(-50%) rotate(-90deg); 
-} */
