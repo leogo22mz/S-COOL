@@ -13,11 +13,16 @@ function WelcomeAbout2() {
             </div>
             <div>
                 <p className='welcomep2'>
-                A text about the online school. 
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit.
-                Sed mattis erat ante,
-                non eleifend diam auctor in. 
+                A text about the online  <br/>
+                school. Lorem ipsum dolor <br/>
+                sit amet, consectetur <br/>
+                adipiscing elit. Sed mattis<br/>
+                erat ante, non eleifend diam<br/>
+                auctor in. Lorem ipsum<br/>
+                dolor sit amet, consectetur<br/>
+                adipiscing elit. Sed mattis<br/>
+                erat ante, non eleifend diam<br/>
+                auctor in
                 </p>
 
                 <div className='Btnabout2'>
