@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './RegisterForm.css';
-import { Form, Input, Button } from 'antd';
-
+ 
 
 
 function RegisterForm() {
@@ -15,24 +14,24 @@ function RegisterForm() {
             <div className="content-containerRegister">
                 <form className="containerRegister">
                     <div className='form-group champform'>
-                        <label >Username:</label>
+                        <label >Create username:</label>
                         <input type='text' className="form-control champtext" />
                     </div>
                     <div  className='form-group champform'>
-                        <label>e-mail:</label>
-                        <input type='text' className="form-control champtext" />
+                        <label>Your e-mail:</label>
+                        <input type='email' className="form-control champtext" />
                     </div>
                     <div  className='form-group champform'>
-                        <label>Repeat e-mail:</label>
-                        <input type='text' className="form-control champtext" />
+                        <label>Repeat your e-mail:</label>
+                        <input type='email' className="form-control champtext" />
                     </div>
                     <div  className='form-group champform'>
-                        <label>Password:</label>
-                        <input type='text' className="form-control champtext" />
+                        <label>Create password:</label>
+                        <input type='password' className="form-control champtext" />
                     </div>
                     <div  className='form-group champform'>
                         <label>Repeat Password:</label>
-                        <input type='text' className="form-control champtext" />
+                        <input type='password' className="form-control champtext" />
                     </div>
                 </form>
                 <div className='MyBtnsRegister'>

@@ -2,6 +2,8 @@
 .page-containerRegister {
     margin-top: 90px;
     padding: 20px; 
+    background-color: #EEE9E3;
+
 }
 
 .content-containerRegister {
@@ -10,7 +12,7 @@
 }
 
 .containerRegister {
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
     border-radius: 3%;
     padding: 20px;
     margin-top: 20px;
@@ -19,13 +21,14 @@
 .MyBtnsRegister {
     margin-right: 0;
     margin-top: 5px;
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
     border-radius: 3%;
     padding: 10px;
     justify-content: flex-end; 
     display: flex;
     flex-direction: column;
     align-items: center; 
+    
 }
 
 
@@ -35,14 +38,16 @@
     height: 50px; 
     font-weight: bold;
     font-size: 18px;
-    font-family: sans-serif;
     margin-top: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 @media (min-width: 2561px) { 
     .MyBtnsRegister {
         flex-direction: row; 
         justify-content: space-between; 
+        
     }
 
     .BtnRegister {
@@ -59,20 +64,26 @@
 
 
 .champform, label{
-    background-color: #D6D6D6;
+    background-color: #EEE9E3;
 
 }
 
 #signupbtn{
-    border-radius: 10px;
-    width: 270px;
-    height: 96px;
-    font-weight: bold;
-    font-size: 36px;
+    margin-bottom: 10px;
+    border-color: transparent;
+    border-radius: 36px;
+    width: 267px;
+    height: 52px;
+    /* font-weight: bold; */
+    font-size: 32px;
     font-family:  sans-serif;
+    /* font-family: 'MADE TOMMY'; */
+
+    background-color: #75F5A8;
 
 }
 #loginbtn{
+    border-color: transparent;
     margin-top: 5px;
     border-radius: 10px;
     width: 270px;
@@ -80,13 +91,22 @@
     font-family:  sans-serif;
     font-size: 13px; 
     font-weight: bold;
+    background-color: #FFFFFF;
 
 }
 
 
-div.text-centerRegister{
+/* div.text-centerRegister{
     background-color: #D6D6D6;
+} */
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow:none !important;
 }
-.champtext:focus {
-    outline: none;
+.champtext{
+    border-radius: 12px !important;
 }

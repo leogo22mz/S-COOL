@@ -7,8 +7,8 @@ function SignUp() {
   
     return (
 
-        <div className='signuppage'>
-            <h5 id='signuptitle'>Join the S-COOL family !</h5>
+        <div className='signuppage '>
+            <h5 id='signuptitle'>Join the S-COOL family!</h5>
 
             <ProfilPic/>
             <RegisterForm/>

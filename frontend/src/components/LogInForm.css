@@ -1,6 +1,6 @@
 .page-containerLogin {
     background-color: #EEE9E3;
-    padding: 20px; 
+    /* padding: 20px;  */
     
 }
 
@@ -16,10 +16,7 @@
 }
 
 .MyBtnsLogin {
-    margin-right: 0;
-    margin-top: 5px;
-    background-color: #EEE9E3;
-    border-radius: 3%;
+    background-color: transparent;
     padding: 10px;
     justify-content: flex-end;
     display: flex;
@@ -28,13 +25,13 @@
 }
 
 #champtxt1{
-    border-radius: 13px;
+    border-radius: 12px;
     height: 37px;
     border: none;
     display: flex;
 }
 #champtxt2{
-    border-radius: 13px;
+    border-radius: 12px;
     height: 37px;
     border: none;
     display: flex;
@@ -45,30 +42,31 @@
 
 }
 #login{
-    border-radius: 10px;
-    width: 270px;
-    height: 96px;
+    border-radius: 36px;
+    width: 267px;
+    height: 52px;
     font-weight: bold;
     font-size: 36px;
     font-family:  sans-serif;
     background-color: #75F5A8;
+    border-color: transparent;
+    margin-bottom: 10px;
+
 
 }
 #signup{
-    margin-top: 5px;
     border-radius: 10px;
-    width: 270px;
+    width: 310px;
     height: 25px;
     font-size: 13px; 
     font-family:  sans-serif;
     font-weight: bold;
     background-color: #F9F9F9;
-
-
+    border-color: transparent;
 }
 
 div.text-center{
-    background-color: #EEE9E3;
+    background-color: transparent;
 }
 
 
@@ -80,6 +78,8 @@ div.text-center{
     font-size: 18px; 
     font-family: sans-serif;
     margin-top: 5px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 @media (min-width: 2561px) { 

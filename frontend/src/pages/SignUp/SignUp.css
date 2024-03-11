@@ -1,7 +1,29 @@
 .signuppage{
-    background-color: #e8e8e8;
+    color: #0B1215;
+    background-color: #EEE9E3;
+    height: 100vh;
+    /* font-family: 'MADA'; */
 }
 
 #signuptitle{
     text-align: center;
 }
+
+/* 
+.horizontal-lineTitle {
+    position: relative;
+    margin-top: 10px; 
+}
+
+.horizontal-lineTitle::before {
+    content: '';
+    position: absolute;
+    
+    margin-left: -8px;
+    left: 0%; 
+    top: 74.86%;
+    width: 2px; 
+    height: calc(100% - -200px); 
+    background-color: black; 
+    transform: translateY(-50%) rotate(-90deg); 
+} */
