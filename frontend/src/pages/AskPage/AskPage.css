@@ -1,54 +1,49 @@
 .inquiry-page {
     background-color: #EEE9E3;
     height: 100vh;
-  }
-  
-  .inquiry-form-wrapper {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #E9D8C8;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-    
-  .inquiry-form {
-      margin-top: 16px;
-  }
-    
-  .form-item-query label {
-      font-size: 16px;
-      color: #333;
-  }
-    
-  .query-textarea {
-      border-radius: 4px;
-  }
-    
-  .action-button {
-      background-color: #75F5A8;
-      border-color: #75F5A8;
-      width: 100%;
-      height: 40px;
-      font-size: 16px;
-      margin-top: 16px;
-  }
-    
-  .action-button:hover,
-  .action-button:focus {
-      background-color: #54af78;
-      border-color: #54af78;
-  }
-    
-  .query-textarea > textarea {
-      padding: 10px;
-  }
-    
-  .inquiry-page h1.inquiry-title {
-      text-align: center;
-  }
-  
-  .action-button {
-      font-size: large;
-  }
-  
+}
+
+.inquiry-form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E9D8C8;
+    border-radius: 8px;
+    box-shadow: 0 9px 9px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-form {
+    margin-top: 16px;
+}
+
+
+.query-textarea {
+    border-radius: 4px;
+}
+
+.action-button {
+    background-color: #75F5A8;
+    border-color: #75F5A8;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.action-button:hover,
+.action-button:focus {
+    background-color: #54af78;
+    border-color: #54af78;
+}
+
+.query-textarea>textarea {
+    padding: 10px;
+}
+
+.inquiry-page h1.inquiry-title {
+    text-align: center;
+}
+
+.action-button {
+    font-size: large;
+}

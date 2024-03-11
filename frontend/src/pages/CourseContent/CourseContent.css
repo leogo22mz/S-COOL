@@ -1,0 +1,51 @@
+.course-content-page {
+    font-family: 'Arial', sans-serif; /* or any font you're using */
+    background-color: #FFFFFF; /* Adjust the color to match your design */
+    color: #333333; /* Adjust the text color to match your design */
+    margin: auto;
+    position: relative; /* Relative positioning for the parent */
+    height: 100vh; /* Use the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.course-content-container {
+    flex: 1;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between content and actions */
+}
+
+.course-content-title {
+    color: #333; /* Dark grey or black for the title */
+}
+
+.course-content-description {
+    margin-bottom: 32px; /* Space before actions */
+}
+
+
+
+.course-content-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 20px; /* Rounded corners for buttons */
+    border: none;
+    color: white; /* White text for buttons */
+    font-size: 16px;
+    cursor: pointer;
+    outline: none; /* Remove focus border */
+    background-color: #50C878; /* Adjust button color */
+    text-align: center;
+    width: 30v;
+}
+
+.course-content-button:first-child {
+    background-color: #50C878; /* Different color for the first button */
+}
+

@@ -1,54 +1,49 @@
-.contact-page{
+.contact-page {
   background-color: #EEE9E3;
   height: 100vh;
 }
 
 .contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #E9D8C8;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-form {
-    margin-top: 16px;
-  }
-  
-  .form-item-message label {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .message-textarea {
-    border-radius: 4px;
-  }
-  
-  .submit-button {
-    background-color: #75F5A8;
-    border-color: #75F5A8;
-    width: 100%;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 16px;
-  }
-  
-  .submit-button:hover,
-  .submit-button:focus {
-    background-color: #54af78;
-    border-color: #54af78;
-  }
-  
-  .message-textarea > textarea {
-    padding: 10px;
-  }
-  
-  .contact-page h1.contact-title {
-    text-align: center;
-  }
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #E9D8C8;
+  border-radius: 8px;
+  box-shadow: 0 9px 9px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .submit-button{
-    font-size: large;
-  }
-  
+.contact-form {
+  margin-top: 16px;
+}
+
+
+.message-textarea {
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #75F5A8;
+  border-color: #75F5A8;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #54af78;
+  border-color: #54af78;
+}
+
+.message-textarea>textarea {
+  padding: 10px;
+}
+
+.contact-page h1.contact-title {
+  text-align: center;
+}
+
+.submit-button {
+  font-size: large;
+}

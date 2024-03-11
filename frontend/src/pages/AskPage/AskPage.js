@@ -20,9 +20,9 @@ function AskPage() {
             <div className="logo-section">
                 <img src={logo} alt="Logo" />
             </div>
-            <br/>
+            <br />
             <div className="inquiry-form-wrapper">
-            <h1 className="inquiry-title">Is there something you don’t understand or want to know more about?</h1>
+                <h1 className="inquiry-title">Is there something you don’t understand or want to know more about?</h1>
 
                 <Form
                     name="inquiry_form"
