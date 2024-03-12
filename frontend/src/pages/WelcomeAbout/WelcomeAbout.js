@@ -15,19 +15,25 @@ function WelcomeAbout() {
         navigate2("/login");
     }
     return (
-
-        <div className='welcomeaboutpage'>
+        <>
+         
             <TopBarDropdown />
+            <div className='welcomeaboutpage'>
             <div className="logo-section">
                 <img src={logo} alt="Logo" />
             </div>
-            <div>
+            <div className='paragraph'>
                 <p className='welcomep'>
-                A text about the online school. 
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit.
-                Sed mattis erat ante,
-                non eleifend diam auctor in. 
+                    A text about the online  
+                    school. Lorem ipsum dolor 
+                    sit amet, consectetur 
+                    adipiscing elit. Sed mattis
+                    erat ante, non eleifend diam
+                    auctor in. Lorem ipsum
+                    dolor sit amet, consectetur
+                    adipiscing elit. Sed mattis
+                    erat ante, non eleifend diam
+                    auctor in
                 </p>
 
                 <div className='Btns'>
@@ -41,6 +47,9 @@ function WelcomeAbout() {
             </div>
 
         </div>
+        </>
+
+       
     );
 }
 

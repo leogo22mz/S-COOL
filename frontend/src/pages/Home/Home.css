@@ -1,16 +1,21 @@
 .homepage{
     background-color: #EEE9E3;
-    /* height: calc(100vh - 36px); */
     height: 100vh;
+
+    
 }
 .topics{
     margin-top: 50px;
+
+    
 }
 .topic{
     margin-bottom: 50px;
-    font-family: 'Montserrat';
+    font-family: 'MADE TOMMY';
+    font-size: 32px;
     margin-left: 100px;
     color: #0B1215;
+
 }
 
 
@@ -28,8 +33,7 @@
 .horizontal-lineAbout::before {
     content: '';
     position: absolute;
-    /* left: -4.1%;  */
-    margin-left: -13px;
+    margin-left: -16px;
     left: -0.1%; 
     top: 74.59%;
     width: 2px; 
@@ -46,10 +50,8 @@
 .horizontal-lineCourses::before {
     content: '';
     position: absolute;
-    /* left: -4.1%;  */
-    margin-left: -8.3px;
+    margin-left: -10px;
     left: 0%; 
-    /* top: 74.86%; */
     top: 73%;
     width: 2px; 
     height: calc(100% - -200px); 
@@ -64,7 +66,6 @@
 .horizontal-lineQuizz::before {
     content: '';
     position: absolute;
-    /* left: -4.1%;  */
     margin-left: -8px;
     left: 0%; 
     top: 74.86%;
@@ -83,8 +84,7 @@
 .horizontal-lineProfile::before {
     content: '';
     position: absolute;
-    /* left: -4.1%;  */
-    margin-left: -11px;
+    margin-left: -15px;
     left: -0.1%; 
     top: 74.59%;
     width: 2px; 
@@ -92,3 +92,8 @@
     background-color: #0B1215; 
     transform: translateY(-50%) rotate(-90deg); 
 }
+
+.homeflower{
+    padding-left: 124px;
+}
+

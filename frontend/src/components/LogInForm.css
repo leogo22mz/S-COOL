@@ -1,6 +1,8 @@
 .page-containerLogin {
     background-color: #EEE9E3;
     /* padding: 20px;  */
+    font-family: 'MADE TOMMY';
+
     
 }
 
@@ -45,12 +47,13 @@
     border-radius: 36px;
     width: 267px;
     height: 52px;
-    font-weight: bold;
-    font-size: 36px;
-    font-family:  sans-serif;
+    font-weight: inherit;
+    font-size: 20px;
     background-color: #75F5A8;
     border-color: transparent;
     margin-bottom: 10px;
+    font-family: 'MADE TOMMY';
+
 
 
 }
@@ -58,9 +61,10 @@
     border-radius: 10px;
     width: 310px;
     height: 25px;
-    font-size: 13px; 
-    font-family:  sans-serif;
-    font-weight: bold;
+    font-size: 14px; 
+    font-weight: inherit;
+    font-family: 'MADE TOMMY';
+
     background-color: #F9F9F9;
     border-color: transparent;
 }

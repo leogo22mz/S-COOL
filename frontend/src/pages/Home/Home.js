@@ -3,6 +3,7 @@ import TopBarDropdown from '../../components/TopBarDropdown';
 import { useNavigate } from 'react-router-dom';
 import 'typeface-montserrat';
 import logo from '../../assets/img/logo.svg';
+import greenflower from '../../assets/img/greenflower.svg';
 
 
 
@@ -52,6 +53,9 @@ function Home() {
                             <div className='horizontal-lineCourses'>
                                 <h3  onClick={handleClickContact}  className='topic'>Contact</h3>
                             </div>
+                    </div>
+                    <div className="logo-section">
+                        <img src={greenflower} alt="Flower" className='homeflower' />
                     </div>
                 </div>
 

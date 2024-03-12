@@ -1,8 +1,10 @@
 
 .page-containerRegister {
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 20px; 
     background-color: #EEE9E3;
+    font-family: 'MADE TOMMY';
+
 
 }
 
@@ -20,10 +22,8 @@
 
 .MyBtnsRegister {
     margin-right: 0;
-    margin-top: 5px;
     background-color: #EEE9E3;
     border-radius: 3%;
-    padding: 10px;
     justify-content: flex-end; 
     display: flex;
     flex-direction: column;
@@ -74,10 +74,9 @@
     border-radius: 36px;
     width: 267px;
     height: 52px;
-    /* font-weight: bold; */
-    font-size: 32px;
+    font-weight: inherit;
+    font-size: 20px;
     font-family:  sans-serif;
-    /* font-family: 'MADE TOMMY'; */
 
     background-color: #75F5A8;
 
@@ -89,8 +88,8 @@
     width: 270px;
     height: 25px;
     font-family:  sans-serif;
-    font-size: 13px; 
-    font-weight: bold;
+    font-size: 14px; 
+    font-weight: inherit;
     background-color: #FFFFFF;
 
 }

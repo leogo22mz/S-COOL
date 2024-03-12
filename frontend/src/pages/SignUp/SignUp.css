@@ -2,10 +2,26 @@
     color: #0B1215;
     background-color: #EEE9E3;
     height: 100vh;
-    /* font-family: 'MADA'; */
+    /* font-family: 'MADAE TOMMY'; */
 }
 
 #signuptitle{
     text-align: center;
+    padding-top: 20px;
 }
 
+/* .horizontal-lineTitle {
+    position: relative;
+}
+
+.horizontal-lineTitle::before {
+    content: '';
+    position: absolute;
+    margin-left: -13px;
+    left: -0.1%; 
+    top: 74.59%;
+    width: 2px; 
+    height: calc(100% - -200px); 
+    background-color: #0B1215; 
+    transform: translateY(-50%) rotate(-90deg); 
+} */
