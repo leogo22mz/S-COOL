@@ -1,51 +1,89 @@
 .course-content-page {
-    font-family: 'Arial', sans-serif; /* or any font you're using */
-    background-color: #FFFFFF; /* Adjust the color to match your design */
-    color: #333333; /* Adjust the text color to match your design */
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
     margin: auto;
-    position: relative; /* Relative positioning for the parent */
-    height: 100vh; /* Use the full height of the viewport */
+    position: relative;
+
     display: flex;
     flex-direction: column;
 }
 
 .course-content-container {
-    flex: 1;
-    background-color: #f4f4f4; /* Light grey background */
-    border-radius: 20px; /* Rounded corners */
+    background-color: #f4f4f4;
+    border-radius: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space between content and actions */
+    justify-content: space-between;
+
 }
 
 .course-content-title {
-    color: #333; /* Dark grey or black for the title */
+    color: #333;
 }
 
 .course-content-description {
-    margin-bottom: 32px; /* Space before actions */
+    margin-bottom: 32px;
 }
 
-
+.course-content-actions {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .course-content-button {
-    display: block;
-    width: 100%;
     padding: 10px;
     margin: 8px 0;
-    border-radius: 20px; /* Rounded corners for buttons */
+    border-radius: 20px;
     border: none;
-    color: white; /* White text for buttons */
+    color: white;
     font-size: 16px;
     cursor: pointer;
-    outline: none; /* Remove focus border */
-    background-color: #50C878; /* Adjust button color */
+    outline: none;
     text-align: center;
-    width: 30v;
+    width: 47vw;
+    background-color: #50C878;
 }
 
 .course-content-button:first-child {
-    background-color: #50C878; /* Different color for the first button */
+    background-color: #50C878;
 }
 
+.course-content-buttons-triangle {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-left,
+.button-right {
+    position: absolute;
+    top: -60px;
+}
+
+.button-left {
+    left: 20px;
+}
+
+.button-right {
+    right: 20px;
+}
+
+.button-center {
+    background-color: #50C878;
+    margin: 0 auto;
+}
+
+.course-content-back {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
